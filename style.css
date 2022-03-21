@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+}
+.header {
+    height: 5.37vh;
+    width: 100vw;
+    background-color: grey;
+}
+
+.footer {
+    height: 5.37vh;
+    width: 100vw;
+    background-color: grey;
+}
+
+.box {
+    width: 80vw;
+    background-color: rgb(242, 242, 244);
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.box_head{
+        padding-right: 10px;
+        padding-left: 10px;
+        background-color:rgb(242, 242, 244);
+        margin: auto;
+        width: 80vw;
+        height: 30px;
+    }
+.box_head i{
+        font-size: 20px;
+    }
+.nav-link{
+        color: black;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+}
+.nav_hover li:hover{
+    color: black;
+    letter-spacing: 2px;
+}
+
+/* hello world sectiom */
+.pic_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic {
+    width: 77vw;
+    height: 85vh;
+    margin-top: 20px;
+    background-position: center;
+    background-image: url(picture2.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.pic p{
+    
+    flex: 1 1 20rem;
+    margin-top: 2.1875rem;
+    font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
+}
+.pic h1{
+    flex: 1 1 20rem;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* hello world sectiom ends */
+
+/* card proprty */
+.card-dd{
+    flex:1 1 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+.card-dd div{
+    flex:1 1 15rem;
+    background-color: rgb(242, 242, 244);
+    padding:2rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+.card-dd div input {
+    border: none;
+    outline: none;
+    background-color: rgb(242, 242, 244);
+    color: red;
+}
+
+.card-dd div p {
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.card-dd div h1 {
+    margin-top: 35px;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card-dd div i {
+    font-size: 50px;
+}
+
+.card1 i {
+    font-size: 50px;
+}
+.card-dd div:hover{
+    background-color: rgba(128, 128, 128, 0.219);
+    border-radius: 10px;
+}
+.card-dd input:hover{
+    font-size: 16.5px;
+}
+
+/* for card view details button */
+.card3 input {
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.card2 input {
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.card1 input {
+    font-size: 15px;
+    background-color: transparent;
+}
+/* box 2 */
+.box2 {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: transparent;
+    gap: 2rem;
+    padding: 2.0rem 0rem;
+
+}
+.box2 div{
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(242, 242, 244);
+    width: 18vw;
+    text-align: center;
+}
+.box2 div i{
+    font-size: 1.87rem;
+}
+.box2 div p{
+    font-size: 2.81rem;
+    
+}
+.box2 div h6{
+    font-size: 1.12rem; 
+}
+
+/* box3 */
+.box3{
+    width: 80vw;
+    background-color: rgb(242, 242, 244);
+    margin: auto;
+    padding: 1px 20px;
+    text-align: center;
+}
+.box3 p{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.box3 h1{
+    margin-top: 1.25rem;
+    font-size: 1.12rem;
+    font-family: 'Roboto', sans-serif;
+}
+#h1{
+    margin-bottom: 3.5rem; /* for gap in all the need that you want */
+}
+.pol{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.pi{
+    display: inline-block;
+    background-color: rgb(242, 242, 244);
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+.pi p{
+    font-size: 1.7rem;
+    margin-top: 1.25rem;
+    font-family: 'Quicksand', sans-serif; 
+}
+.pi i{
+    font-size: 1.56rem;
+}
+.box3 h6{
+    font-size: 1.12rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* box4 */
+.box4{
+    width: 80vw;
+    background-color: rgb(242, 242, 244);
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1 1 25rem;
+}
+.ptag {
+
+    font-size: 2.5rem;
+    font-family: 'Quicksand', sans-serif;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+.p1tag {
+    margin-top: 2.18rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+/* box 5 start */
+.box5{
+    /* height: 190vh; */
+    width: 80vw;
+    padding-top: 40px;
+    padding-bottom: 5rem;
+    background-color: rgb(242, 242, 244);
+    margin: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+/* ac div start */
+.ac{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+.ac .ac1{
+    flex: 1 1 25rem;
+}
+.ac .image{
+    flex: 1 1 25rem;
+}
+.ac .image img{
+    height: 420px;
+    width: 250px;
+    box-shadow: 2px 2px 40px grey, -2px -2px 80px silver;
+}
+/* ac div end */
+.ac1 p{margin-top: 15px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.ac1 h4{
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif; 
+}
+.ac1 i{
+    font-size: 25px;
+}
+.image2{
+    flex: 1 1 25rem;
+}
+.image2 img{
+    height: 180px;
+    width: 250px;
+}
+/* box 5 start */
+/* box6 start */
+.box6{
+    width: 80vw;
+    background-color: rgba(245, 245, 245, 0.945);
+    margin: auto;
+    padding: 10px 20px;
+}
+/* box6 end */
+/* card-section start */
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+.content{
+    padding: 10px;
+}
+.card {
+    background-color: white;
+    width: 23.5vw;
+    margin-top: 51px;
+    flex: 1 1 20rem;
+}
+.content-heading{
+    color: rgba(255, 1, 1, 0.753);
+}
+
+.content-title{
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif; 
+}
+.content-date-writer{
+    color: rgba(128, 128, 128, 0.685);
+}
+
+.content-text{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.card:hover{
+    background-color: rgba(128, 128, 128, 0.219);
+    border-radius: 10px;
+}
+/* card-section end */
+/* box6 end */
+.box7{
+    width: 80vw;
+    background-color: white;
+    margin: auto;
+    padding-left: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box7 h6{
+    font-size: 0.94rem;
+    color: rgba(255, 0, 0, 0.521);
+}
+.box7 h5{
+    display: inline;
+    font-size: 0.94rem;
+}
